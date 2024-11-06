@@ -99,7 +99,9 @@ const hostPage2 = (req, res) => {
 const hostPage3 = (req, res) => {
   res.render('page3');
 };
-
+const hostPage4 = (req, res) => {
+  res.render('page4');
+};
 // Get name will return the name of the last added cat.
 const getName = async (req, res) => {
   try{
@@ -289,6 +291,7 @@ module.exports = {
   page1: hostPage1,
   page2: hostPage2,
   page3: hostPage3,
+  page4: hostPage4,
   getName,
   setName,
   updateLast,
