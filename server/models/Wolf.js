@@ -52,7 +52,6 @@ const WolfSchema = new mongoose.Schema({
     type: String,
     required: true,
     trim: true,
-    unique: true,
   },
   age: {
         type: Number,
